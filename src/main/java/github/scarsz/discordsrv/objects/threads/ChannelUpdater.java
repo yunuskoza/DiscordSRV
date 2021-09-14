@@ -124,7 +124,7 @@ public class ChannelUpdater extends Thread {
         public void update () {
             String message = PlaceholderUtil.replaceChannelUpdaterPlaceholders(this.format);
             if (message.length() > 100) {
-                message = message.substring(0, 99);
+                message = message.substring(0, 100);
                 DiscordSRV.debug(Debug.CHANNEL_UPDATER, "The new channel name for \"" + this.discordChannel.getName() + "\" was too long. Reducing it to 100 characters...");
                 if (StringUtils.isBlank(message)) {
                     DiscordSRV.debug(Debug.CHANNEL_UPDATER, "The new channel name for `\"" + this.discordChannel.getName() + "\" was blank, skipping...");
