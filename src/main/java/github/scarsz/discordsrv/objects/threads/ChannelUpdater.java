@@ -121,7 +121,7 @@ public class ChannelUpdater extends Thread {
 
         }
 
-        public void update () {
+        public void update() {
             String message = PlaceholderUtil.replaceChannelUpdaterPlaceholders(this.format);
             if (message.length() > 100) {
                 message = message.substring(0, 100);
