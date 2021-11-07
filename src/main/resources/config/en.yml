@@ -26,7 +26,7 @@ BotToken: "BOTTOKEN"
 #
 # The first part of channel pairs is not the Discord channel name!
 # You must restart your server after changing this option
-Channels: {"global": "000000000000000000"}
+Channels: {"global": "906665444784619571"}
 
 # Console channel numerical ID (NOT NAME), leave blank to disable the console channel all together
 DiscordConsoleChannelId: "000000000000000000"
